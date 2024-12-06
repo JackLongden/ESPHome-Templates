@@ -38,18 +38,17 @@
 
 substitutions:
   # User-required substitutions
-  device_site: "home"
-  device_location_code: "bedroom01"
-  device_location_name: "Bedroom 1"
-  device_type_code: "wasw"
-  device_type_name: "Wall Switch"
-  device_number: "044"
-  device_ip: "0.0.0.0"
+   device_floor: "0"
+  device_location: "HALLWAY"
+  device_location_code: "hall"
+  device_type: "LX"
+  device_type_code: "lx"
+  device_number: "01"
 
   # Project Substitutions (not intended for user substitution)
   device_model: "Switchman M5 (3-Gang)"
   device_make: "Sonoff"
-  package_version: "2024.2.13"
+  package_version: "2024.12.06"
   package_url: "github://JackLongden/ESPHome-Templates/sonoff-m5-3g.yaml@main"
 
   # Relay Configurations

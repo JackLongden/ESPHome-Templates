@@ -15,14 +15,16 @@
 substitutions:
   # User variables
   device_floor: "0"
-  device_location: "HALL"
+  device_location: "HALLWAY"
+  device_location_code: "hall"
   device_type: "LX"
-  device_number: "001"
+  device_type_code: "lx"
+  device_number: "01"
 
   # Project variables (not intended for user substitution)
   device_model: "Switchman M5 (2-Gang)"
   device_make: "Sonoff"
-  package_version: "2024.12.04"
+  package_version: "2024.12.06"
   package_url: "github://JackLongden/ESPHome-Templates/sonoff-m5-2g.yaml@main"
 
   # Relay Config
