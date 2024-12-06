@@ -14,13 +14,10 @@
 
 substitutions:
   # User variables
-  device_site: "home"
-  device_location_code: "bedroom01"
-  device_location_name: "Bedroom 1"
-  device_type_code: "wasw"
-  device_type_name: "Wall Switch"
-  device_number: "044"
-  device_ip: "0.0.0.0"
+  device_floor: "0"
+  device_location: "HALL"
+  device_type: "LX"
+  device_number: "001"
 
   # Project variables (not intended for user substitution)
   device_model: "Switchman M5 (2-Gang)"
